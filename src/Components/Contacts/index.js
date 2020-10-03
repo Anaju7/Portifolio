@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../Footer/style.css';
+import './style.css';
 import github from '../../assets/imagens/github.png';
 import linkedin from "../../assets/imagens/linkedin.png";
 
