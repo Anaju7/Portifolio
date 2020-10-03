@@ -1,7 +1,9 @@
 import React from 'react';
+import About from "../../Components/About/index"
 
-const Portifolio = () => {
-    return <h1>blaaaa2</h1>
+
+const Home = () => {
+    return < About />
 }
 
-export default Portifolio;
+export default Home;

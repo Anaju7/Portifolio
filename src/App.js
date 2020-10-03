@@ -1,17 +1,29 @@
 import React from 'react';
 import './App.css';
-import About from './Components/About';
-import Footer from './Components/Footer';
-import Header from './Components/header'
+
+import Header from './Components/header';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+
+
+import Home from './pages/home';
+import Portifolio from './pages/portifolio';
+
+
 
 function App() {
   return (
-    <div className="App">
-      < Header />
-      < About />
-      < Footer />
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/"><Home /></Route>
+          <Route path="portifolio"><Portifolio /></Route>
+        </Switch>
 
-    </div>
+
+      </div>
+    </BrowserRouter>
   );
 }
 

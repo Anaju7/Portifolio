@@ -4,7 +4,7 @@ import '../Footer/style.css';
 import github from '../../assets/imagens/github.png';
 import linkedin from "../../assets/imagens/linkedin.png";
 
-const Footer = () => {
+const Contacts = () => {
     return (
         <div className="footer">
             <h2>Contatos</h2>
@@ -14,8 +14,10 @@ const Footer = () => {
                 <li><a href="#" target="_blank"><img src={linkedin} alt='linkedin' /></a></li>
             </ul>
             <p>Anajulia.anaju7@gmail.com </p>
+
+            <a href="#" download=''>Curriculo</a>
         </div>
     )
 };
 
-export default Footer;
+export default Contacts;

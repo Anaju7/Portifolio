@@ -1,7 +1,13 @@
 import React from 'react';
+import Slider from '../../Components/Slider';
 
-const Home = () => {
-    return <h1>blaaaa</h1>
-}
 
-export default Home;
+const Portifolio = () => {
+    return (
+        <div>
+            <Slider />
+        </div>
+    )
+};
+
+export default Portifolio;
