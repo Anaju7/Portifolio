@@ -8,6 +8,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from './pages/home';
 import Portifolio from './pages/portifolio';
+import Contato from './pages/contacts';
 
 
 
@@ -18,7 +19,7 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/"><Home /></Route>
-          <Route path="portifolio"><Portifolio /></Route>
+          <Route path="/contatos"><Contato /></Route>
         </Switch>
 
 

@@ -4,7 +4,7 @@ import Slider from '../../Components/Slider';
 
 const Portifolio = () => {
     return (
-        <div>
+        <div className="portifolio">
             <Slider />
         </div>
     )
