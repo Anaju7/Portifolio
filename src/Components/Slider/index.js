@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
+
 import contador from "../../assets/imagens/contador.png";
-import curriculo from '../../assets/imagens/curriculo.png'
+import seta from '../../assets/imagens/left.svg';
+import direita from '../../assets/imagens/right.svg';
 
 import './style.css'
 
@@ -11,7 +13,7 @@ const projetos = [
     },
 
     {
-        imagem: `${curriculo}`,
+        imagem: `${''}`,
         descricao: 'Currriculo digital feito com HTML e Css'
     },
 ]
@@ -34,13 +36,15 @@ const Slider = () => {
         <section className="slider">
             {dados && (
                 <div className="info-slider">
+                    <h1>Minhas Aplicações</h1>
                     <img className="img-projetos" src={dados[page].imagem}></img>
                     <p>{dados[page].descricao}</p>
+                    <a href="#" >Veja Agora</a>
                 </div>
             )}
             <div className='container-btn'>
-                <button className="btn" onClick={() => volta(page)}>aaaa</button>
-                <button className="btn" onClick={() => avançar(page)}>bbbb</button>
+                <button className="btn" onClick={() => volta(page)}><img className="setas" src={seta} /></button>
+                <button className="btn" onClick={() => avançar(page)}><img className="setas" src={direita} /></button>
 
             </div>
         </section>

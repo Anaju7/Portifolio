@@ -7,8 +7,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 
 import Home from './pages/home';
-import Portifolio from './pages/portifolio'
-import Contato from './pages/contacts';
+import Portifolio from './pages/Portifolio';
+import Contato from './pages/contatos';
 
 
 
@@ -19,11 +19,9 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/"><Home /></Route>
-          <Route path="/portifolio"> <Portifolio /> </Route>
-          <Route path="/contato"><Contato /> </Route>
+          <Route path="/portifolio"><Portifolio /> </Route>
+          <Route path="/contatos"><Contato /> </Route>
         </Switch>
-
-
       </div>
     </BrowserRouter>
   );
