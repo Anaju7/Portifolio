@@ -15,8 +15,14 @@
     margin-top: 3rem;
 }
 
+.info-slider h1 {
+    letter-spacing: 1px;
+}
+
+
 .info-slider a {
     text-decoration: none;
+    font-weight: bold;
     color: purple;
 }
 
