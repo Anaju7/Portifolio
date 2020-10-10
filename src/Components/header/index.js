@@ -1,5 +1,5 @@
 import React from 'react';
-import Style from '../header/style.css';
+import './style.css';
 
 import { Link } from "react-router-dom";
 
@@ -11,9 +11,9 @@ const Header = () => {
 
             <nav className="menu">
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/potifolio">Portifolio</Link></li>
-                    <li><a href="#">Contatos</a></li>
+                    <li><Link exact to="/">Home</Link></li>
+                    <li><Link to='/portifolio'>Portifolio</Link></li>
+                    <li><Link to="/contatos">Contatos</Link></li>
                 </ul>
             </nav>
         </div>

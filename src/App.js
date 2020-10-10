@@ -6,12 +6,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 
 
-import Home from './pages/home';
-import Portifolio from './pages/portifolio';
-import Contato from './pages/contacts';
-
-
-
+import Home from './pages/home/index';
+import Contato from './pages/Contatos/index';
+import Portifolio from './pages/Portifolio'
 
 function App() {
   return (
@@ -20,7 +17,7 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/"><Home /></Route>
-          <Route path="/portifolio"><Portifolio /> </Route>
+          <Route path="/portifolio"><Portifolio /></Route>
           <Route path="/contatos"><Contato /> </Route>
 
         </Switch>
