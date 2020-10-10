@@ -8,7 +8,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from './pages/home/index';
 import Contato from './pages/contatos';
-import Portifolio from './pages/Portifolio'
+import Portifolio from './pages/Portifolio/index';
 
 function App() {
   return (
