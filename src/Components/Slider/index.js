@@ -12,7 +12,7 @@ const projetos = [
     {
         imagem: `${contador}`,
         descricao: 'Countador de clicks feito com React.js e JavaScript',
-        url: 'https://counter-eight.vercel.app/'
+        url: 'https://counter-blue.vercel.app/'
     },
 
     {
