@@ -1,0 +1,69 @@
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados h1 {
+    font-size: 1.9rem;
+    padding: 10px 0;
+}
+
+.dados h3 {
+    padding: 20px 0;
+}
+
+.dados ul {
+    list-style: none;
+    display: flex;
+}
+
+.dados li {
+    margin: 15px 10px;
+}
+
+.dados a img {
+    width: 45px;
+}
+
+.curriculo {
+    width: 150px;
+    text-decoration: none;
+     height: 30px; 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 40px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid purple;
+    color: purple;
+    font-size: 15px;
+}
+
+.curriculo:hover {
+    background: purple;
+    color: #ccc;
+}
+
+@media(min-width: 800px) {
+    .contacts {
+        width: 100%;
+        height: 93vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dados {
+        width: 60%;
+        height: 70%;
+        border-radius: 50px;
+        border: 1px solid #fff;
+    }
+
+    
+}
