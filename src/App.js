@@ -12,6 +12,7 @@ import Contato from './pages/contacts';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,10 +20,10 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/"><Home /></Route>
-          <Route path="/contatos"><Contato /></Route>
+          <Route path="/portifolio"><Portifolio /> </Route>
+          <Route path="/contatos"><Contato /> </Route>
+
         </Switch>
-
-
       </div>
     </BrowserRouter>
   );
