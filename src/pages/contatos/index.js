@@ -1,5 +1,5 @@
 import React from 'react';
-import Contatos from '../../Components/contatos'
+import Contatos from '../../Components/contatos/index'
 
 const Contato = () => {
     return < Contatos />

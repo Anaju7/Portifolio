@@ -6,10 +6,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 
 
-import Home from './pages/home';
-
-import Portifolio from './pages/portifolio';
-import Contato from './pages/contacts';
+import Home from './pages/home/index';
+import Portifolio from './pages/portifolio/index';
+import Contato from './pages/contatos/index'
 
 
 
