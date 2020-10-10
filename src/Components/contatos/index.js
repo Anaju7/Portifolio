@@ -13,9 +13,9 @@ const Contatos = () => {
 
                 <h3>Redes Sociais</h3>
                 <ul>
-                    <li><a href="https://github.com/Anaju7"><img src={github} alt="github" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/ana-julia-4838201ab/"><img src={linkedin} alt="linkedin" /></a></li>
-                    <li><a href="https://codepen.io/anaju07"><img src={condepen} alt="codepen" /></a></li>
+                    <li><a href="https://github.com/Anaju7" target="_black"><img src={github} alt="github" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/ana-julia-4838201ab/" target="_black"><img src={linkedin} alt="linkedin" /></a></li>
+                    <li><a href="https://codepen.io/anaju07" target="_black"><img src={condepen} alt="codepen" /></a></li>
                 </ul>
 
                 <h3>Email</h3>
@@ -26,7 +26,7 @@ const Contatos = () => {
                 <p>(81)98846-6282</p>
 
                 <h3>Curriculo Digital</h3>
-                <a href="https://ana-julia-curriculo.netlify.app/" className="curriculo" >Curriculo</a>
+                <a href="https://ana-julia-curriculo.netlify.app/" className="curriculo" target="_black" >Curriculo</a>
             </div>
         </div>
     )

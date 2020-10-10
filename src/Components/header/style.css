@@ -26,6 +26,7 @@
 .menu a {
     text-decoration: none;
     padding: 15px;
+    font-weight: bold;
     display: block;
     text-align: center;
     background-color: #222;

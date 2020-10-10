@@ -22,9 +22,22 @@
 
 .info-slider a {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 2px solid purple;
     font-weight: bold;
     color: purple;
+    width: 150px;
+     height: 30px; 
 }
+
+.info-slider a:hover {
+    background: purple;
+    color: #ccc;
+}
+
 
 .img-projetos {
     width: 20rem;
@@ -48,7 +61,7 @@
 }
 
 .setas {
-    width: 20px;
+    width: 30px;
     margin: 0 20px;
 }
 
