@@ -20,10 +20,8 @@ const Contatos = () => {
 
                 <h3>Email</h3>
 
-                <p>Anajulia.anaju7@gmail.com</p>
+                <a className="mail" href='mailto:anajulia.anaju7@gmail.com'>Anajulia.anaju7@gmail.com</a>
 
-                <h3>Fone</h3>
-                <p>(81)98846-6282</p>
 
                 <h3>Curriculo Digital</h3>
                 <a href="https://ana-julia-curriculo.netlify.app/" className="curriculo" target="_blank">Curriculo</a>
